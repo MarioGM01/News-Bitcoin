@@ -1,0 +1,29 @@
+
+body {
+    background-color: rgba(0, 0, 0, 0.801) !important;
+  }
+  
+  
+.container{
+    margin-top: 2em;
+}
+
+.imgBanner{
+    width: 25em;
+    border-radius: 0.5em;
+    border: 0.3em solid black;
+}
+
+.side-block-left, .side-block-right {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+
+#card-sz{
+    height: 40em;
+}
+
+#card-img{
+    height: 20em;
+}
