@@ -13,7 +13,7 @@ export const Noticia = () => {
             try {
                 setLoading(true);
                 
-                const response = await fetch(`https://newsapi.org/v2/everything?q=bitcoin&apiKey=${import.meta.env.VITE_NEWS_API_KEY}`);
+                const response = await fetch('https://cors-anywhere.herokuapp.com/https://newsapi.org/v2/everything?q=bitcoin&apiKey=06f607ab823343b682313f468c2bdc7b');
                 if (!response.ok) {
                     throw new Error('Error en la solicitud');
                 }
